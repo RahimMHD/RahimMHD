@@ -56,6 +56,7 @@ export default function Project(props) {
                     </div>
                 </div>
             </div>
+            <h2>this is My Project</h2>
         </div>
     )
 }
