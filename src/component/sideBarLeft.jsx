@@ -6,21 +6,21 @@ export default function LeftBar(props) {
     const [icon, setIcon] = React.useState(Media);
 
     const mediaIcon = icon.Media.map(item => {
-            return <li key={item.id}><a href=""><i className={item.icon}></i></a></li>
-        })
+        return <li key={item.id}><a href=""><i className={item.icon}></i></a></li>
+    })
     const inform = icon.infoPersonal.map((item, index) => {
-            return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
-        })
+        return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
+    })
     const infoLanguage = icon.infoLang.map((item, index) => {
-            return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
-        })
+        return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
+    })
     const infoskills = icon.infoSkills.map((item, index) => {
-            return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
-        })
+        return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
+    })
 
     return (
-        <div 
-            className="left-bar" 
+        <div
+            className="left-bar"
             style={{
                 backgroundColor: props.stt ? "white" : "#000",
                 color: props.stt ? "black" : "white"
@@ -30,7 +30,7 @@ export default function LeftBar(props) {
                 <img src="./public/20230417_162301.png" alt="" />
             </div>
             <div className="my-info">
-                <h1 className="myName">Mahdi AbdArrahim</h1>
+                <h1 className="myName">Your Name</h1>
                 <h2>Front-End Developer</h2>
             </div>
 
@@ -63,12 +63,12 @@ export default function LeftBar(props) {
                     <p>Git Knowledge</p>
                 </div>
             </div>
-            <div 
-                className='dark-mode' 
-                onClick={props.change}    
+            <div
+                className='dark-mode'
+                onClick={props.change}
             >
                 {props.stt
-                    ? <i className="fa-sharp fa-solid fa-moon"></i> 
+                    ? <i className="fa-sharp fa-solid fa-moon"></i>
                     : <i className="fa-regular fa-sun"></i>
                 }
             </div>

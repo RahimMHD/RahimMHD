@@ -9,7 +9,7 @@ export default function Home(props) {
             }}
         >
             <div className="info-for-me">
-                <h1>I’m Mahdi Abdarrahim <span>Front - End</span> Developer </h1>
+                <h1>Your Name Here <span>Front - End</span> Developer </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
                 feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.

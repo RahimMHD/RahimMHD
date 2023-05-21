@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Services(props) {
 
-    const sevices = props.serv.map((item,index) => {
+    const sevices = props.serv.map((item, index) => {
         return (
-            <div 
+            <div
                 key={index}
-                className="serv-box" 
+                className="serv-box"
                 style={{
-                    backgroundColor: props.checkDarkMood ? "white" : "#000" ,
+                    backgroundColor: props.checkDarkMood ? "white" : "#000",
                     color: props.checkDarkMood ? "black" : "white"
                 }}
             >
@@ -21,10 +21,10 @@ export default function Services(props) {
 
     return (
         <div className="services" id="services">
-            <div className="title-section" style={{color: props.checkDarkMood ? "black" : "white"}} >
+            <div className="title-section" style={{ color: props.checkDarkMood ? "black" : "white" }} >
                 <h1>My Services</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                     Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+                <p>I will be glad to become a part of your team or just work for you on bug
+                    fixing or implementing new features to your website/application.</p>
             </div>
             <div className="serv" >
                 {sevices}

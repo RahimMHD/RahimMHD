@@ -6,8 +6,8 @@ export default function Project(props) {
         <div id="project">
             <div className="title-section" style={{ color: props.checkcolor ? "black" : "white" }}>
                 <h1>Portfolio</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+                <p>Her you can se my best project, I do few dashbord and a lot of Templates,
+                    I hope you like it thanks </p>
             </div>
             <div className="project">
                 <div className="filter" style={{ color: props.checkcolor ? "black" : "white" }}>
@@ -56,7 +56,7 @@ export default function Project(props) {
                     </div>
                 </div>
             </div>
-            <h2>this is My Project</h2>
+            <h2>this is My best Project</h2>
         </div>
     )
 }
