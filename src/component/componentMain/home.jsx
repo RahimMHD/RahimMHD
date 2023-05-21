@@ -22,7 +22,7 @@ export default function Home(props) {
                 </div>
             </div>
             <div className="image-of-me">
-                <img src="./public/20230417_162301.png" alt="" />
+                <img src="./assets/20230417_162301.png" alt="" />
             </div>
         </div>
     )

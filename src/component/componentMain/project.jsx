@@ -20,37 +20,37 @@ export default function Project(props) {
                 <div className="prj">
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./public/web-development.jpg" alt="" />
+                            <img src="./assets/web-development.jpg" alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
