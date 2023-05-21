@@ -1,4 +1,5 @@
 import React from "react"
+import imgPrf from "../../assets/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg"
 
 export default function Home(props) {
     return (
@@ -22,7 +23,7 @@ export default function Home(props) {
                 </div>
             </div>
             <div className="image-of-me">
-                <img src="./assets/20230417_162301.png" alt="" />
+                <img src={imgPrf} alt="" />
             </div>
         </div>
     )

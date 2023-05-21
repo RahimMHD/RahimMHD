@@ -1,6 +1,7 @@
 import React from "react";
 import './sideBarLeft.css'
 import Media from './folder data/data.mediaLeft.js'
+import imgPrf from "../assets/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg"
 
 export default function LeftBar(props) {
     const [icon, setIcon] = React.useState(Media);
@@ -27,7 +28,7 @@ export default function LeftBar(props) {
             }}
         >
             <div className="image">
-                <img src="" alt="" />
+                <img src={imgPrf} alt="" />
             </div>
             <div className="my-info">
                 <h1 className="myName">Your Name</h1>

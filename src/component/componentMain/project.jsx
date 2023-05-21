@@ -1,4 +1,5 @@
 import React from "react";
+import imgProject from "../../assets/web-development.jpg"
 
 
 export default function Project(props) {
@@ -20,37 +21,37 @@ export default function Project(props) {
                 <div className="prj">
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
                     <div>
                         <a href="">
-                            <img src="./assets/web-development.jpg" alt="" />
+                            <img src={imgProject} alt="" />
                         </a>
                         <a href=""><button className="code">Code</button></a>
                     </div>
