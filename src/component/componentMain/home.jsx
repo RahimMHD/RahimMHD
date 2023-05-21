@@ -2,9 +2,9 @@ import React from "react"
 
 export default function Home(props) {
     return (
-        <div className="me" id="home" 
+        <div className="me" id="home"
             style={{
-                backgroundColor: props.checkDarkMood ? "white" : "#000" ,
+                backgroundColor: props.checkDarkMood ? "white" : "#000",
                 color: props.checkDarkMood ? "black" : "white"
             }}
         >
@@ -12,11 +12,11 @@ export default function Home(props) {
                 <h1>Your Name Here <span>Front - End</span> Developer </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
-                feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.
+                    feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.
                 </p>
                 <div className="btn">
                     <button>
-                        Hire Me 
+                        Hire Me
                         <i className="fa-sharp fa-solid fa-arrow-right"></i>
                     </button>
                 </div>

@@ -27,7 +27,7 @@ export default function LeftBar(props) {
             }}
         >
             <div className="image">
-                <img src="./public/20230417_162301.png" alt="" />
+                <img src="" alt="" />
             </div>
             <div className="my-info">
                 <h1 className="myName">Your Name</h1>
