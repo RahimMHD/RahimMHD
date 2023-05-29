@@ -1,5 +1,5 @@
 import React from "react"
-import imgPrf from "../../assets/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg"
+import imgPrf from "../../assets/clipart132311.png"
 
 export default function Home(props) {
     return (
