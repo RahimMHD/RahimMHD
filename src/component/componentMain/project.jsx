@@ -57,7 +57,6 @@ export default function Project(props) {
                     </div>
                 </div>
             </div>
-            <h2>this is My best Project</h2>
         </div>
     )
 }
