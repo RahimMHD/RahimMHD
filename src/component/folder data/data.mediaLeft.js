@@ -9,9 +9,9 @@ const Media = [
 
 const infoPersonal = [
     {name: "Age", value: 23},
-    {name: "Residence", value: "Alg"},
+    {name: "Residence", value: "USA"},
     {name: "Freelance", value: "Available"},
-    {name: "Address", value: "Algeria, BBA 34000"},
+    {name: "Address", value: "USAmerica"},
 ]
 
 const infoLang = [

@@ -38,7 +38,7 @@ export default function RightBar(props) {
     })
     return (
         <div className='right-bar' style={{backgroundColor: mode ? "white" : "#000"}}>
-            <div id='personal'>
+            {/* <div id='personal'>
                 <div className="image">
                     <img src="./public/20230417_162301.png" alt="" />
                 </div>
@@ -46,7 +46,7 @@ export default function RightBar(props) {
                     <h1 className="myName">Mahdi AbdArrahim</h1>
                     <h2>Front-End Developer</h2>
                 </div>
-            </div>
+            </div> */}
 
             <div 
                 className='dark-mode' 
