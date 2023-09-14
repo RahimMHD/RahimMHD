@@ -1,10 +1,14 @@
 import React from "react";
 import './sideBarLeft.css'
 import Media from './folder data/data.mediaLeft.js'
-import imgPrf from "../assets/clipart132311.png"
+import { useSelector, useDispatch } from "react-redux";
+import { changeModeOff, changeModeOn } from "./componentMain/store/store";
+import imgPrf from "../assets/pngwing.com (9).png"
+
 
 export default function LeftBar(props) {
     const [icon, setIcon] = React.useState(Media);
+    const {mode} = useSelector(state => state.darkMode);
 
     const mediaIcon = icon.Media.map(item => {
         return <li key={item.id}><a href=""><i className={item.icon}></i></a></li>
@@ -19,16 +23,29 @@ export default function LeftBar(props) {
         return <li key={index}><p>{item.name}:</p> <p>{item.value}</p></li>
     })
 
+    const dispatch = useDispatch();
+
+
+    const handelChangeMode = () => {
+        if (mode) {
+            dispatch(changeModeOff())
+        } else {
+            dispatch(changeModeOn())
+        }
+    }
+
     return (
         <div
             className="left-bar"
             style={{
-                backgroundColor: props.stt ? "white" : "#000",
-                color: props.stt ? "black" : "white"
+                backgroundColor: mode ? "white" : "#000",
+                color: mode ? "black" : "white"
             }}
         >
             <div className="image">
                 <img src={imgPrf} alt="" />
+            </div>
+            <div className="my-info">
             </div>
             <div className="my-info">
                 <h1 className="myName">Your Name</h1>
@@ -64,12 +81,12 @@ export default function LeftBar(props) {
                     <p>Git Knowledge</p>
                 </div>
             </div>
-            <div
-                className='dark-mode'
-                onClick={props.change}
+            <div 
+                className='dark-mode' 
+                onClick={() => handelChangeMode()}    
             >
-                {props.stt
-                    ? <i className="fa-sharp fa-solid fa-moon"></i>
+                {mode
+                    ? <i className="fa-sharp fa-solid fa-moon"></i> 
                     : <i className="fa-regular fa-sun"></i>
                 }
             </div>

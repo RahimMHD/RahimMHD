@@ -1,5 +1,5 @@
 import React from "react"
-import imgPrf from "../../assets/clipart132311.png"
+import imgPrf from "../../assets/pngwing.com (9).png";
 
 export default function Home(props) {
     return (
@@ -28,6 +28,3 @@ export default function Home(props) {
         </div>
     )
 }
-
-
-
