@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-# this is my Portfolio
+# WELCOME TO MY GITHUB 
